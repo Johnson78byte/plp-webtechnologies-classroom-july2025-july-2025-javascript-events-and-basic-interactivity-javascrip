@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My web page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Contact Us</h1>
+
+  <!-- Form Section -->
+  <form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name">
+    
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="Enter your email">
+    
+    <button type="submit">Submit</button>
+    <p id="formMessage"></p>
+  </form>
+
+  <!-- Interactive Section 1 -->
+  <section>
+    <h2>Click Counter</h2>
+    <button id="clickBtn">Click Me!</button>
+    <p>Clicks: <span id="clickCount">0</span></p>
+  </section>
+
+  <!-- Interactive Section 2 -->
+  <section>
+    <h2>Change Background</h2>
+    <button id="bgBtn">Change Background Color</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
